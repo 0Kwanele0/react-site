@@ -1,0 +1,40 @@
+.main-serv {
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.main-serv h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 30px 0;
+}
+.sev-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px 10px;
+}
+.imge {
+  width: 180px;
+}
+.individual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 320px;
+  padding: 10px;
+  border: 2px solid blue;
+  border-radius: 14px;
+  margin: 0 33px 40px 33px;
+}
+.individual h4 {
+  font-size: 1.5rem;
+  padding: 12px 0;
+}
+.individual p {
+  font-size: 1rem;
+  text-align: center;
+}
