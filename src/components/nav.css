@@ -38,9 +38,10 @@
 
 @media screen and (max-width: 900px) {
   .nav-div {
-    padding: 10px 0;
+    padding: 10px;
   }
   .list {
+    display: none;
     z-index: 111;
     width: 100%;
     display: block;
@@ -48,12 +49,10 @@
     text-align: center;
     top: 70px;
     background-color: rgba(29, 29, 196, 0.815);
-    height: 100vh;
+    height: 0;
   }
   .list a {
     padding: 40px 0;
     color: white;
-
-    display: block;
   }
 }

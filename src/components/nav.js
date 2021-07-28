@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './nav.css'
+import Button from './button';
 
 function Nav() {
     return (
@@ -14,7 +15,7 @@ function Nav() {
                 <Link >About</Link>
                 <Link >FAQ</Link>
             </div>
-            <button>Contact</button>
+            <Button text="Contact Us" />
         </div>
     )
 }
