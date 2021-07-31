@@ -1,6 +1,6 @@
 import React from 'react'
-import Image3 from './images/seo.png'
-import './about.css'
+import Image3 from '../images/seo.png'
+import './styles/about.css'
 
 export const About = () => {
     return (

@@ -33,23 +33,3 @@
   line-height: 24px;
 }
 
-@media screen and (max-width: 900px) {
-  .about-container {
-    flex-direction: column;
-    padding: 20px 0px ;
-    margin: 0;
-  }
-  .about-right {
-    text-align: center;
-    padding: 20px;
-    width: auto;
-  }
-  .about-right h2 {
-    text-align: center;
-    font-size: 3rem;
-    padding: 10px 0;
-  }
-  .imagee{
-    width: 90%;
-  }
-}

@@ -57,31 +57,3 @@
 .footer__button:hover{
     background-color: rgb(10, 10, 196);
 }
-
-@media (max-width: 430px) {
-    .footer__nav, .footer__form, .footer__details{
-        padding: 10px 0;
-        width: 100%;
-        text-align: center;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .footer__nav{
-        display: none;
-    }
-    .footer__form input{
-        margin: 10px 0;
-    }
-    .footer__details p{
-        margin: 5px 0;
-    }
-}
-
-@media (max-width:712px) {
-    .footer__form{
-        width: 80%;
-    }
-    .footer__form input{
-        margin: 10px 0;
-    }
-}

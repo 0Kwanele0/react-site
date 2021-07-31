@@ -28,6 +28,11 @@
   border: 2px solid blue;
   border-radius: 14px;
   margin: 0 33px 40px 33px;
+  transition: all .3s ease-in-out;
+}
+
+.individual:hover{
+  transform: rotate(5deg);
 }
 .individual h4 {
   font-size: 1.5rem;
@@ -36,12 +41,4 @@
 .individual p {
   font-size: 1rem;
   text-align: center;
-}
-@media (max-width:460px) {
-  .individual{
-  margin: 0 0 40px 0;
-  }
-  .main-serv{
-    padding: 0;
-  }
 }

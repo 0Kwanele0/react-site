@@ -1,5 +1,5 @@
 import React from 'react'
-import './faq.css'
+import './styles/faq.css'
 import {faqList} from './faq-list'
 
 function Faq() {

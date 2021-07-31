@@ -31,31 +31,3 @@
 .img {
   width: 440px;
 }
-
-@media screen and (max-width: 900px) {
-  .main {
-    flex-direction: column;
-    
-  }
-  .left {
-    padding: 0 10px;
-    margin: 0;
-    order: 2;
-    width: 100%;
-    text-align: center;
-  }
-  .right {
-    order: 1;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .img {
-    width: 350px;
-  }
-  .left h1 {
-    font-size: 3rem;
-  }
-}

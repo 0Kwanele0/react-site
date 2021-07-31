@@ -1,24 +1,11 @@
-import React, { useRef, useEffect } from 'react'
 import { list } from './service-list'
-import gsap from 'gsap/gsap-core'
-import './services.css'
+import './styles/services.css'
 
 
 function Services() {
-
-    let maindiv = useRef()
-
-    useEffect(() => {
-        gsap.from(maindiv, 2, {
-            opacity: 0,
-            y: 50,
-        })
-    })
-
+    
     return (
-        <div ref={el => {
-            maindiv = el
-        }} className="main-serv">
+        <div className="main-serv">
             <h2>Our Service</h2>
             <div className="sev-container">
                 {list.map((item, key)=>{

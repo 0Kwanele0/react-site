@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './footer.css'
+import './styles/footer.css'
 function Footer() {
     return (
         <div className="footer">
@@ -20,7 +20,7 @@ function Footer() {
             </div>
             
             <form className="footer__form">
-                <h2>Reach out to us.</h2>
+                <h2>Join Our Newsletter.</h2>
                 <input className="input" placeholder="Name" type="text" />
                 <input className="message" placeholder="Email" type="email" />
                 <button className="footer__button">Sign up</button>

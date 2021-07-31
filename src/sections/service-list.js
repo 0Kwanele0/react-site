@@ -1,6 +1,6 @@
-import image1 from './images/custmer-support.png'
-import image2 from './images/google-ads (1).png'
-import image3 from './images/meeting-deadlines (2).png'
+import image1 from '../images/custmer-support.png'
+import image2 from '../images/google-ads (1).png'
+import image3 from '../images/meeting-deadlines (2).png'
 
 export const list=[
     {
