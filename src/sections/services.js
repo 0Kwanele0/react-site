@@ -14,16 +14,15 @@ function Services() {
         threshold: 0.3
     })
     const fadeIn = (element) => {
-        gsap.to(element, 1, {
+        gsap.to(element, 1.4, {
             opacity: 1,
-            y: -10
+            y: -10,
         })
     }
     const fadeOut = (element) => {
         gsap.to(element, 1, {
             opacity: 0,
             y: 20,
-            ease: 'power4.ease'
         })
     }
 

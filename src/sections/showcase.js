@@ -15,7 +15,8 @@ function Showcase() {
     useEffect(() => {
         gsap.from(headerItem, 1, {
             opacity: 0,
-            x: -10
+            x: -10,
+            ease: "back.out(1.7)"
         })
         gsap.from(imageItem, 1, {
             opacity: 0,
