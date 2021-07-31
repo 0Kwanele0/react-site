@@ -6,8 +6,6 @@ import { gsap } from 'gsap'
 import { useRef, useEffect } from 'react'
 
 
-
-
 export const About = () => {
 
     const about = useRef()
