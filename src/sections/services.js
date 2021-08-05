@@ -1,5 +1,5 @@
 import { list } from './service-list'
-import { useRef, useEffect } from 'react'
+import { useRef} from 'react'
 import { useIntersection } from 'react-use'
 import './styles/services.css'
 import { gsap } from 'gsap'
@@ -11,7 +11,7 @@ function Services() {
     const observer = useIntersection(myDev, {
         root: null,
         rootMargim: 0,
-        threshold: 0.3
+        threshold: 0.4
     })
     const fadeIn = (element) => {
         gsap.to(element, 1.4, {
@@ -26,7 +26,7 @@ function Services() {
         })
     }
 
-    if (observer && observer.intersectionRatio > 0.3) {
+    if (observer && observer.intersectionRatio > 0.4) {
         fadeIn(".main-serv")
     } else {
         fadeOut(".main-serv")
@@ -39,7 +39,7 @@ function Services() {
                 {list.map((item, key)=>{
                    return(
                     <div className="individual">
-                        <img className="imge" src={item.image} />
+                        <img className="imge" alt="service" src={item.image} />
                         <h4>{item.name}</h4>
                         <p>{item.description}</p>
                     </div>

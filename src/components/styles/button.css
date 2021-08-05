@@ -3,7 +3,7 @@
     font-size: 1.1rem;
     font-weight: 400;
     padding: 13px 23px;
-    border: none;
+    border: 3px solid yellow;
     color: white;
     outline: none;
     background-color: blue;
@@ -12,7 +12,7 @@
 }
 
 .btn:hover{
-    box-shadow: inset 200px 0 0 0 yellow;
+  box-shadow: inset 200px 0 0 0 yellow;
 
   color: rgb(0, 0, 0);
 }

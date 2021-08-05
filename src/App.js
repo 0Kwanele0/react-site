@@ -6,6 +6,8 @@ import Services from './sections/services'
 import About from './sections/about'
 import Faq from './sections/faq';
 import Footer from './components/footer';
+import Testimonials from './sections/testimonials';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return( 
@@ -14,6 +16,7 @@ function App() {
       <Showcase />
       <Services />
       <About />
+      <Testimonials />
       <Faq />
       <Footer />
     </Router>

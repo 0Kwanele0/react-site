@@ -3,7 +3,7 @@ import Image3 from '../images/seo.png'
 import './styles/about.css'
 import { useIntersection } from 'react-use'
 import { gsap } from 'gsap'
-import { useRef, useEffect } from 'react'
+import { useRef} from 'react'
 
 
 export const About = () => {
@@ -47,7 +47,8 @@ export const About = () => {
     return (
         <div ref={ about } className="about-container">
             <div className="about-left">
-                <img className="imagee" img src={Image3} />
+                <img className="imagee" alt="about" img src={Image3} />
+
             </div>
             <div className="about-right">
                 <h2>What's up About us</h2>

@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react'
-import { useIntersection } from 'react-use'
 import './styles/showcase.css'
 import img from '../images/custmer-support-colored-.png'
 import Button from '../components/button'
@@ -10,7 +9,6 @@ function Showcase() {
 
     let headerItem = useRef()
     let imageItem = useRef()
-    
     
     useEffect(() => {
         gsap.from(headerItem, 1, {
@@ -31,14 +29,14 @@ function Showcase() {
             }} className="left">
                 <h1>Let us help you create and launch your product</h1>
                 <div className="btn-div">
-                    <Button text="Contact Us" />
+                    <Button text="Know more" />
                     <Button text="Get in touch" />
                 </div>
             </div>
             <div ref={(el) => {
                 imageItem = el
             }} className="right">
-                < img className='img' src={img} />
+                < img className='img' alt="showcase" src={img} />
             </div>
         </div>
     )
