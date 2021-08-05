@@ -3,7 +3,9 @@
   display: flex;
   justify-content: flex-start;
 }
-
+.left p{
+  color: black;
+}
 
 
 .left h1 {

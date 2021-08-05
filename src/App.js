@@ -12,7 +12,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return( 
     <Router>
-      <Nav />
       <Showcase />
       <Services />
       <About />
