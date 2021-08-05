@@ -43,3 +43,14 @@
   text-align: center;
   color: black;
 }
+@media screen and (max-width:800px) {
+  .individual {
+    padding: 12px;
+    width: 100%;
+    margin: 0 3px 40px 3px;
+  }
+  .main-serv {
+    margin:  0px;
+    padding: 0;
+}
+}
