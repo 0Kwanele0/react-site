@@ -1,42 +1,30 @@
-import React, { useRef, useEffect } from 'react'
 import './styles/showcase.css'
-import img from '../images/custmer-support-colored-.png'
+import img from '../images/blogging.png'
 import Button from '../components/button'
-import gsap from 'gsap'
+
 
 
 function Showcase() {
 
-    let headerItem = useRef()
-    let imageItem = useRef()
-    
-    useEffect(() => {
-        gsap.from(headerItem, 1, {
-            opacity: 0,
-            x: -10,
-            ease: "back.out(1.7)"
-        })
-        gsap.from(imageItem, 1, {
-            opacity: 0,
-            x: 10
-        })
-    }, [])
-
     return (
-        <div className="main">
-            <div ref={el => {
-                headerItem = el
-            }} className="left">
-                <h1>Let us help you create and launch your product</h1>
-                <div className="btn-div">
-                    <Button text="Know more" />
-                    <Button text="Get in touch" />
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md order-md-last">
+                    <div className="right">
+                        < img className='image' alt="showcase" src={img} />
+                    </div>
                 </div>
-            </div>
-            <div ref={(el) => {
-                imageItem = el
-            }} className="right">
-                < img className='img' alt="showcase" src={img} />
+                <div class="col-md order-md-first">
+                    <div className="left">
+                        <h1>Let us help you create and launch your product</h1>
+                        <p>Scale apps with 0% rev share on your first $1M. Get started with Shopify App Challenge. Reimagine commerce. Earn More Revenue. Create Your Best Work.</p>
+                        <div className="btn-div">
+                            <Button text="Know more" />
+                            <Button text="Get in touch" />
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     )

@@ -4,7 +4,7 @@ import './styles/button.css'
 function Button(props) {
     return (
         <div>
-            <button className="btn">{props.text}</button>
+            <button style={{marginLeft: "0px"}} className="butn">{props.text}</button>
         </div>
     )
 }
