@@ -1,18 +1,19 @@
-.btn{
+
+.butn{
     cursor: pointer;
     font-size: 1.1rem;
-    font-weight: 400;
+    font-weight: 500;
     padding: 13px 23px;
     border: 3px solid yellow;
     color: white;
     outline: none;
     background-color: blue;
     box-shadow: inset 0 0 0 0 yellow;
-    transition: all 0.8s ease-out;
+    transition: all 0.8s;
+    white-space: nowrap;
 }
 
-.btn:hover{
+.butn:hover{
   box-shadow: inset 200px 0 0 0 yellow;
-
   color: rgb(0, 0, 0);
 }
